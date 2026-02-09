@@ -1,0 +1,46 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Snowflake specific
+.snowflake/
+snowflake.sql
+snowflake_setup.sql
+
+# Large datasets & models (KEEP sample data only)
+data/raw/
+data/large_*.csv
+*.pkl
+*.joblib
+models/
+checkpoints/
+
+# Training outputs
+train.csv
+test.csv
+submission_template.csv
+leaderboard_*.csv
+
+# Environment & OS
+.env
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
